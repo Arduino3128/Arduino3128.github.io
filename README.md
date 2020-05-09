@@ -2,9 +2,10 @@
   
 ## About Myself  
 ![Arduino3128](https://avatars0.githubusercontent.com/u/17906294?s=60&u=338cbdf02e213d961c086e4e745566f3796d3874&v=4)  
-17 years old;  
-Big nerd of robots;  
-Loves Programming(Arduino and Python);  
+Known by the name "Kanad Nemade".
+17 years old.    
+Big nerd of robots.  
+Loves Programming(Arduino and Python).    
 Wants to become a Robotics Engineer.  
 Owns a 3D printer.  
 
