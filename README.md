@@ -9,7 +9,7 @@ Loves Programming(Arduino and Python).
 Wants to become a Robotics Engineer.  
 Owns a 3D printer.  
 
-## Current Projects(Github Link):  
+## Current Projects(Github Repository Link):  
 [MetaMail](https://github.com/Arduino3128/MetaMail)  
 
 [TEA5767_Encoder_Serial](https://github.com/Arduino3128/TEA5767_Encoder_Serial)  
@@ -18,7 +18,7 @@ Owns a 3D printer.
   
 [CoronaDashboard](https://github.com/Arduino3128/CoronaDashboard)     
   
-## Websites:
+## Websites("Github Pages" Link):
 
 [MetaMail](https://arduino3128.github.io/MetaMail)  
 
