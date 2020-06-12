@@ -28,7 +28,7 @@ Owns a 3D printer.
   
 [PillDucky](https://arduino3128.github.io/PillDucky)  
   
-[Mercury](https://github.com/Arduino3128/Mercury)   
+[Mercury](https://arduino3128.github.io/Mercury)   
     
 [TEA5767_Encoder_Serial](https://arduino3128.github.io/TEA5767_Encoder_Serial)  
   
