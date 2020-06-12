@@ -10,8 +10,12 @@ Wants to become a Robotics Engineer.
 Owns a 3D printer.  
 
 ## Current Projects(Github Repository Link):  
-[MetaMail](https://github.com/Arduino3128/MetaMail)  
-
+[MetaMail](https://github.com/Arduino3128/MetaMail)   
+  
+[PillDucky](https://github.com/Arduino3128/PillDucky)  
+  
+[Mercury](https://github.com/Arduino3128/Mercury)  
+  
 [TEA5767_Encoder_Serial](https://github.com/Arduino3128/TEA5767_Encoder_Serial)  
   
 [PiButton](https://github.com/Arduino3128/PiButton)   
@@ -21,7 +25,11 @@ Owns a 3D printer.
 ## Websites("Github Pages" Link):
 
 [MetaMail](https://arduino3128.github.io/MetaMail)  
-
+  
+[PillDucky](https://arduino3128.github.io/PillDucky)  
+  
+[Mercury](https://github.com/Arduino3128/Mercury)   
+    
 [TEA5767_Encoder_Serial](https://arduino3128.github.io/TEA5767_Encoder_Serial)  
   
 [PiButton](https://arduino3128.github.io/PiButton/)  
