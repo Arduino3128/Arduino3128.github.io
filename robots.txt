@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+Disallow: /assets/
+Sitemap: https://arduino3128.github.io/sitemap.xml
