@@ -142,6 +142,37 @@ p {
 }
 
 /*--------------------------------------------------------------
+# Pre-Loader Animation
+---------------------------------------------------------------*/
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader img{
+  left: 0%;
+  top: 0%;
+}
+.loader.hidden{
+animation: fadeOut 1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+100%
+{
+opacity:0;
+visibility:hidden;
+}
+}
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -197,7 +228,7 @@ p {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-style: italic;
 }
 
@@ -556,8 +587,9 @@ p {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 28px;
+  font-weight: 600;
   text-align: left;
 }
 
