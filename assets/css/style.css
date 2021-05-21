@@ -689,6 +689,12 @@ visibility:hidden;
 #projects .projects-item {
   margin-bottom: 30px;
 }
+#projects .projects-item img{
+  padding: 30px;
+  height:75%;
+  width:75%;
+  padding-left: 40px;
+}
 
 #projects .projects-item .projects-info {
   opacity: 0;
