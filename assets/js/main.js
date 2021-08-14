@@ -97,18 +97,33 @@
   /**
    * Back to top button
    */
-  let backtotop = select('.back-to-top')
-  if (backtotop) {
-    const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
-        backtotop.classList.add('active')
-      } else {
-        backtotop.classList.remove('active')
-      }
-    }
-    window.addEventListener('load', toggleBacktotop)
-    onscroll(document, toggleBacktotop)
-  }
+   let backtotop = select('.back-to-top')
+   if (backtotop) {
+     const toggleBacktotop = () => {
+       if (window.scrollY > 100) {
+         backtotop.classList.add('active')
+       } else {
+         backtotop.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', toggleBacktotop)
+     onscroll(document, toggleBacktotop)
+   }
+   /**
+    * Back to mid button
+    */
+   let backtomid = select('.back-to-mid')
+   if (backtomid) {
+     const toggleBacktomid = () => {
+       if (window.scrollY < 100) {
+        backtomid.classList.add('active')
+       } else {
+        backtomid.classList.remove('active')
+       }
+     }
+     window.addEventListener('load', toggleBacktomid)
+     onscroll(document, toggleBacktomid)
+   }
 
   /**
    * Mobile nav toggle

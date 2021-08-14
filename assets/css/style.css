@@ -173,6 +173,38 @@ visibility:hidden;
 }
 }
 /*--------------------------------------------------------------
+# Back to mid button
+--------------------------------------------------------------*/
+.back-to-mid {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #b8a07e;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-mid i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-mid:hover {
+  background: #c6b398;
+  color: #fff;
+}
+
+.back-to-mid.active {
+  visibility: visible;
+  opacity: 1;
+}
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
