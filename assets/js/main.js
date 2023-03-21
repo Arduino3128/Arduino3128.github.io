@@ -282,3 +282,70 @@
   });
 
 })()
+/*
+const myTimeout = setTimeout(changeBackground, 5000);
+var counter = 0;
+
+function changeBackground() {
+  document.getElementById("hero").classList.remove("changeBackAnim");
+  document.getElementById("hero").style.background = "url('../img/home-bg" + String(counter) + ".png') repeat scroll center center/cover;";
+  document.getElementById("hero").classList.add("changeBackAnim");
+  if (counter > 1)
+    counter = 0;
+  else
+    counter += 1;
+}*/
+/*
+//Initializing
+var i = 0;
+var images = []; //array
+var time = 3000; // time in millie seconds
+
+//images
+
+images[0] = "url(./assets/img/home-bg0.png)";
+images[1] = "url(./assets/img/home-bg1.png)";
+//function
+
+function changeImage() {
+  var el = document.getElementById('hero');
+  el.style.transition = "all 0.3s linear 2s;";
+  el.style.backgroundImage = images[i];
+  if (i < images.length - 1) {
+    i++;
+  } else {
+    i = 0;
+  }
+  setTimeout('changeImage()', time);
+}
+
+window.onload = changeImage;*/
+
+$('.home').bgswitcher({
+  images: ["./assets/img/home-bg0.png", "./assets/img/home-bg1.png", "./assets/img/home-bg2.png"],
+  effect: "blind",
+  interval: 5000
+});
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
